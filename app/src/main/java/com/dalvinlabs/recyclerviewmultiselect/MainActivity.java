@@ -21,7 +21,7 @@ import com.dalvinlabs.recyclerviewmultiselect.databinding.ActivityMainBinding;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-  private final static String API_KEY = "VNNk2xmBYia8LLhNcaUAQNckrMlXiLCI";
+  private final static String API_KEY = "apiKey";
   Call<List<Branches>> call;
   List<Branches> bran;
   private SelectionTracker<Long> selectionTracker;
